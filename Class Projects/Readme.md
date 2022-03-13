@@ -27,6 +27,7 @@ The program can be executed as follows:
 -- Upload notebook on Google Colab or run on Jupyters Notebook
 
 **References**
+
 [1]Chollet, F.: Xception: Deep learning with depthwise separable convolutions.
 CoRR (2016)
 [2] Diba, A., Pazandeh, A.M., Pirsiavash, H., Gool, L.V.: Deepcamp: Deep convolutional action attribute mid-level patterns. In: Proc. IEEE Conference on
