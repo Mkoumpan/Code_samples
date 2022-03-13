@@ -30,16 +30,21 @@ The program can be executed as follows:
 
 [1]Chollet, F.: Xception: Deep learning with depthwise separable convolutions.
 CoRR (2016)
+
 [2] Diba, A., Pazandeh, A.M., Pirsiavash, H., Gool, L.V.: Deepcamp: Deep convolutional action attribute mid-level patterns. In: Proc. IEEE Conference on
 Computer Vision and Pattern Recognition, pp. 3557–3565. Las Vegas, NV
 (2016)
+
 [3] Girshick, R., Donahue, J., Darrell, T., Malik, J.: Rich Feature Hierarchies
 for Accurate Object Detection and Semantic Segmentation. In: 2014 IEEE
 Conference on Computer Vision and Pattern Recognition, pp. 580–587 (2014)
+
 [4] Gkioxari, G., Girshick, R., Malik, J.: Contextual action recognition with
 R*CNN. In: Proc. IEEE International Conference on Computer Vision, pp.
 1080–1088. Santiago, Chile (2015)
+
 [5] He, K., Zhang, X., Ren, S., Sun, J.: Deep residual learning for image recognition. CoRR (2015)
+
 [6] He, K., Zhang, X., Ren, S., Sun, J.: Deep residual learning for image recognition. In: Proc. IEEE Conference on Computer Vision and Pattern Recognition,
 pp. 770–778. Las Vegas, NV (2016)
 
