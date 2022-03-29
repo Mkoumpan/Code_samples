@@ -4,6 +4,7 @@
 **Introduction**
 
 ABOUT THE DATATHON
+
 The COVID-19 Houston Datathon is an online challenge to predict the regional hospitalization and mortality patterns of COVID-19 in Houston, Texas. This Datathon is jointly 
 organized and sponsored by the Center for Secure Artificial intelligence For hEalthcare at the UTHealth School of Biomedical Informatics, and Data to Knowledge lab at 
 Rice University. Undergraduate, master, and doctoral students from the institutes within the Gulf Coast Consortia (including UTHealth, MDACC, UH, Rice, TAMU, UTMB, IBT, 
