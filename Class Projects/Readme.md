@@ -26,6 +26,18 @@ The program can be executed as follows:
 
 -- Upload notebook on Google Colab or run on Jupyters Notebook
 
+**STAR**
+
+Situation: We had to automatically classify thousands of images of people playing musical instruments.
+
+Task: The task was to predict between 12 different classes of people playing musical instruments
+
+Action: We used a a two-stream CNN Deep Learning architecture to model the data. The first stream used pose estimation (mask of the original image with only the pose) and the second the whole image.  The features extracted from the two
+CNN streams were then fused to perform the classification process. The advatange of that approach is the extra information the model has about the pose of the person playing the instrument which boosts the classification accuracy by a significant percent.
+
+Solution: We used various classification metrics such as accuracy, F-1 score, confusion matrix to evaluate our results and managed to improve the original model by 5%.
+
+
 **References**
 
 [1]Chollet, F.: Xception: Deep learning with depthwise separable convolutions.
