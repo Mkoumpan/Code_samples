@@ -23,13 +23,13 @@ For further information please read the Notebook "Datathon.ipynb".
 
 **STAR**
 
-Situation: Classification of galaxies based on their morphological features. We retrieved a dataset from an old Kaggle competition and tried to classify multiple images of galaxies into pre-specified classes.
+Situation: There was a need for Covid-19 hospitalization and death forecasting for 1-2 weeks ahead of time for hospitals. We were given hospitalizations and deaths data directly from hospitals for 8 Counties in Texas.
 
-Task: The task was to predict the class of every galaxy in the dataset (5 classes) based on image characteristics. 
+Task: The task was to forecast the time-series data for a 2-week time period.
 
-Action: We used pre-trained Convolutional Neural Networks as well as our own CNNs to train on the dataset. We finetuned the hyperparemeters and used reguralization techniques such as Dropout and L1-L2 regularizers to reduce overfitting.
+Action: I used a recurrent deep neural network such as an LSTM and ConvLSTM to train the model with a varying window of 3-5 days. The model was able to capture long-term dependencies (e.g. 1 week) as well as short-term dependencies such as less cases in the weekend.
 
-Solution: We evaluated our model using various classification metrics such as accuracy, F-1 score, confusion matrix and achieved an accuracy of 92.86%
+Solution: I evaluated my model using various metrics such as rmse, mae, mse.
 
 
 **Execution**
