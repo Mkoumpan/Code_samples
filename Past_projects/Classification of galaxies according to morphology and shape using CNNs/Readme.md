@@ -17,13 +17,13 @@ self-contained in the notebook.
 
 **STAR**
 
-Situation:
+Situation: Classification of galaxies based on their morphological features. We retrieved a dataset from an old Kaggle competition and tried to classify multiple images of galaxies into pre-specified classes.
 
-Task:
+Task: The task was to predict the class of every galaxy in the dataset (5 classes) based on image characteristics. 
 
-Action:
+Action: We used pre-trained Convolutional Neural Networks as well as our own CNNs to train on the dataset. We finetuned the hyperparemeters and used reguralization techniques such as Dropout and L1-L2 regularizers to reduce overfitting.
 
-Solution:
+Solution: We evaluated our model using various classification metrics such as accuracy, F-1 score, confusion matrix and achieved an accuracy of 92.86%
 
 
 **References**
