@@ -15,6 +15,16 @@ For further information please read the *Classification_of_galaxies_report.pdf*
 The program is in the form of Jupyter Notebooks and can be executed by the corresponding software or by being uploaded to Google Colab. All the input and results are
 self-contained in the notebook.
 
+STAR framework:
+
+Situation:
+
+Task:
+
+Action:
+
+Solution:
+
 
 **References**
 1) Galaxy-zoo-challenge, https://www.kaggle.com/c/galaxy-zoo-the-galaxy-challenge
