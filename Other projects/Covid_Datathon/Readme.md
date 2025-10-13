@@ -1,7 +1,7 @@
 # Prediction of daily Covid-19 hospitalizations and deaths using CNN-LSTMs. Datathon submission
 
 
-**Introduction**
+## Introduction
 
 ABOUT THE DATATHON
 
