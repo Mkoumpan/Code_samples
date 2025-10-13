@@ -12,7 +12,7 @@ The goal was to create models that could accurately forecast recidivism risk whi
 ---
 
 ## Task
-Develop and evaluate predictive models for recidivism over 3-year and 6-year horizons.  
+Develop and evaluate predictive models for recidivism over 1/2/3-year horizons.  
 Key requirements included:
 - Handling missing and imbalanced data.
 - Ensuring fairness across demographic subgroups.
@@ -22,7 +22,7 @@ Key requirements included:
 
 ## Action
 - **Data Preprocessing:** Cleaned and standardized datasets, engineered features from criminal history and demographic variables, and applied techniques to mitigate data imbalance.  
-- **Modeling:** Trained multiple machine learning models (e.g., Logistic Regression, Random Forest, XGBoost) and tuned hyperparameters using cross-validation.  
+- **Modeling:** Trained multiple machine learning models (e.g., Random Forest, XGBoost, Deep Neural Networks) and tuned hyperparameters using cross-validation.  
 - **Fairness & Interpretability:** Assessed performance across demographic groups to detect bias, and used SHAP values for explainability.  
 - **Evaluation Pipeline:** Implemented modular Python scripts (via Jupyter Notebook) to handle data loading, training, and evaluation consistently across forecast windows.  
 - **Version Control & Reproducibility:** Documented the workflow in this repository with reproducible code and results.
