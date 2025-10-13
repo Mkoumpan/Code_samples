@@ -1,5 +1,5 @@
 
-# **Multimodal Mental Health Monitoring with LLM Explanations**
+# [ONGOING] **Multimodal Mental Health Monitoring with LLM Explanations**
 
 **Objective:** Develop a multimodal AI system that predicts mental health states (e.g., stress, anxiety, depression) in college students by integrating high-frequency physiological time-series data from wearables with contextual features (e.g., activity, location). The system should not only make accurate predictions but also provide human-readable natural language explanations of the physiological and contextual patterns driving each prediction using a Large Language Model (LLM).
 
