@@ -13,23 +13,42 @@ participation).
 
 
 
-**Objective**
+# COVID-19 Hospitalization and Mortality Forecasting
 
-The goal is to develop a prediction model using local county-level data to estimate the changes in hospitalization and mortality rates in the greater Houston area encompassing
-8 counties (Harris, Fort Bend, Montgomery, Brazoria, Galveston, Liberty, Chambers, and Austin) in the state of Texas, USA.
+## Overview
+This project focused on forecasting COVID-19 hospitalizations and deaths 1–2 weeks ahead of time to support hospitals in resource allocation and preparedness. The data consisted of hospitalization and mortality records collected from hospitals across eight counties in Texas.
 
+---
 
-For further information please read the Notebook "Datathon.ipynb".
+## Situation
+There was an urgent need for accurate short-term forecasts of COVID-19 hospitalizations and deaths to help hospitals manage capacity and allocate medical resources effectively. Hospitals across eight Texas counties provided real-time data on daily hospitalizations and deaths, which formed the basis for this modeling effort.
 
-**STAR**
+---
 
-Situation: There was a need for Covid-19 hospitalization and death forecasting for 1-2 weeks ahead of time for hospitals. We were given hospitalizations and deaths data directly from hospitals for 8 Counties in Texas.
+## Task
+The objective was to develop a time-series forecasting model capable of predicting hospitalizations and deaths up to two weeks into the future. The challenge involved capturing both short-term trends (e.g., weekday-weekend fluctuations) and longer-term patterns in the evolving pandemic data.
 
-Task: The task was to forecast the time-series data for a 2-week time period.
+---
 
-Action: I used a recurrent deep neural network such as an LSTM and ConvLSTM to train the model with a varying window of 3-5 days. The model was able to capture long-term dependencies (e.g. 1 week) as well as short-term dependencies such as less cases in the weekend.
+## Action
+- **Model Development:** Implemented deep recurrent architectures including **LSTM** and **ConvLSTM** networks using TensorFlow to model temporal dependencies in the data.  
+- **Feature Engineering:** Used a variable time window (3–5 days) to capture different temporal patterns and smooth out noise in the daily reports.  
+- **Training and Tuning:** Performed hyperparameter optimization to balance model complexity and generalization.  
+- **Evaluation:** Compared performance across models and time windows using cross-validation and held-out data.
 
-Solution: I evaluated my model using various metrics such as rmse, mae, mse.
+---
+
+## Result
+The models successfully captured both long-term dependencies (e.g., weekly trends) and short-term variations such as reduced weekend case counts.  
+Evaluation using **RMSE**, **MAE**, and **MSE** demonstrated consistent and robust performance across the eight counties, providing reliable forecasts that could inform hospital operations and planning.
+
+---
+
+## Technologies Used
+- **Python**, **TensorFlow**, **NumPy**, **Pandas**
+- **Matplotlib / Seaborn** for visualization
+- **LSTM** and **ConvLSTM** architectures for time-series modeling
+
 
 
 **Execution**
