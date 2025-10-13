@@ -1,4 +1,4 @@
-# 1. Prediction of daily Covid-19 hospitalizations and deaths using CNN-LSTMs. Datathon submission
+# 1. Covid_Datathon: Prediction of daily Covid-19 hospitalizations and deaths using CNN-LSTMs.
 
 # 2. Recidivism Forecasting Challenge
 
