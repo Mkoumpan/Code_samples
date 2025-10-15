@@ -1,6 +1,6 @@
 # 1. Covid_Datathon: Prediction of daily Covid-19 hospitalizations and deaths using CNN-LSTMs.
 
-# 2. Multimodal Meantal Health Monitoring using LLMs
+# 2. Domain-Specific QA System with LLMs
 
 # 3. Recidivism Forecasting Challenge
 
